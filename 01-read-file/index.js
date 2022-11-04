@@ -6,7 +6,7 @@ const {
 
 
 fs.readFile(
-    path.resolve(__dirname, 'text.txt'),
+    path.join(__dirname, 'text.txt'),
     'utf-8',
     (err, data) => {
         if (err) throw err;

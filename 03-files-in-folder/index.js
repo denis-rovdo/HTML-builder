@@ -2,7 +2,7 @@ const fs = require('fs/promises');
 const path = require('path');
 
 
-const folderPath = path.resolve(__dirname, 'secret-folder');
+const folderPath = path.join(__dirname, 'secret-folder');
 
 try {
 

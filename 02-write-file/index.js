@@ -5,7 +5,7 @@ const {
     stdout
 } = process;
 
-const writeStream = fs.createWriteStream(path.resolve(__dirname, 'text.txt'), 'utf-8');
+const writeStream = fs.createWriteStream(path.join(__dirname, 'text.txt'), 'utf-8');
 
 stdout.write('write some text\n');
 
